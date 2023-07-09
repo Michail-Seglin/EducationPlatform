@@ -1,5 +1,6 @@
 import { pool } from '../db'
 import { iUser } from '../interfaces/index'
+
 async function createUserDB(name: string, surname: string, email: string, pwd: string): Promise<iUser[]> {
     const client = await pool.connect();
     try {
@@ -15,4 +16,13 @@ async function createUserDB(name: string, surname: string, email: string, pwd: s
     }
 }
 
-export { createUserDB }
+async function getEmailDB(email: string) {
+    const client = await pool.connect();
+    const sql = 'select *from users where email=$1';
+    const data = (await client.query(sql, [email])).rows;
+    return data
+}
+
+
+
+export { createUserDB, getEmailDB }
