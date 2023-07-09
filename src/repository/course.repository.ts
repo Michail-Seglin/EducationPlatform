@@ -1,4 +1,4 @@
-import pool from '../db'
+import {pool} from '../db'
 import { iCourse } from '../interfaces';
 
 async function getUsersDB(): Promise<iCourse[]> {
