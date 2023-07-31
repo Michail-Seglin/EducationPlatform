@@ -1,0 +1,174 @@
+.preview {
+    width: 1220px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 7% auto;
+}
+
+.preview .previewInfo {
+    width: 520px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.preview .previewInfo .discription {
+    font: 700 16px Montserrat;
+}
+
+.preview .previewInfo h1 {
+    font: 400 56px Dela Gothic One;
+}
+
+.preview .previewInfo .info {
+    font: 600 18px Montserrat;
+}
+
+.preview .vektorWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.preview .vektorWrapper {
+    font: 400 40px Dela Gothic One;
+}
+
+.preview .previewInfo .vektorWrapper p {
+    font: 400 40px Dela Gothic One;
+}
+
+.preview .previewInfo .vektorWrapper span {
+    color: #2B788B;
+}
+
+.preview .vektor {
+    background-image: url('./assets/Vector.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 30px;
+}
+
+.preview .previewInfo .btnInfo {
+    width: 150px;
+    padding: 10px 0;
+    text-align: center;
+    background: #C3DCE3;
+    border-radius: 30px;
+    font: 700 16px Montserrat;
+}
+
+.preview .previewGuy {
+    background-image: url(./assets/previewGuy.png);
+    width: 710px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    left: 12%;
+}
+
+.wrapper {
+    width: 100%;
+    background-color: #fff;
+}
+
+.learn {
+    width: 1220px;
+    margin: auto;
+    padding: 7% 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.learn .imgGirl {
+    background-image: url('./assets/image\ 8.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 580px;
+    height: 445px;
+}
+
+.learn .info {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    gap: 20px;
+}
+
+.learn h1 {
+    color: #000;
+    font: 400 48px Dela Gothic One;
+}
+
+.learn p {
+    color: #757575;
+    font: 600 18px Montserrat;
+}
+
+.learn .format {
+    display: flex;
+    gap: 20px;
+}
+
+.learn .sprint {
+    background-image: url('./assets/Group\ 11.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 131px;
+    height: 145px;
+}
+
+.learn .task {
+    background-image: url('./assets/Group\ 10.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 172px;
+    height: 145px;
+}
+
+.knowledge {
+    display: flex;
+    width: 1120px;
+    margin: 7% auto 0;
+    justify-content: space-between;
+}
+
+.knowledge .info{
+    width: 474px;
+    display:flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.knowledge h1 {
+    color: #000;
+    font: 400 48px Dela Gothic One;
+}
+
+.knowledge p {
+    color: #757575;
+    font: 600 18px Montserrat;
+}
+
+.knowledge .btnText {
+    display: flex;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 100px;
+    background-color: #C3DCE3;
+    width: 160px;
+    height: 44px;
+}
+
+.knowledge .imgGirl2 {
+    background-image: url('./assets/image\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 580px;
+    height: 480px;
+}
