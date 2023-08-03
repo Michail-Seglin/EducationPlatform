@@ -39,7 +39,7 @@ function PreviwInfo() {
                 <div className={style.info}>
                     <h1>Increase your knowledge</h1>
                     <p>Traditional and new effective approaches to learning languages</p>
-                    <div className = {style.btnText}>Textbook →</div>
+                    <div className = {style.btnText}>Textbook →</div>   
                 </div>
                 <div className={style.imgGirl2}></div>
             </div>

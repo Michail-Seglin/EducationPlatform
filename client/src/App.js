@@ -1,12 +1,15 @@
 import './App.css';
-import PreviwInfo from './componets/PreviewInfo/PreviewInfo';
 import PreviewPage from './pages/PreviewPage/PreviewPage';
+import { Route, Routes } from "react-router-dom"
+import LoginPage from './pages/LoginPage/LoginPage';
+import RegistrationPage from './pages/RegistrationPage/RegistrationPage';
 function App() {
   return (
-    <div className="App">
-      <PreviewPage />
-      <PreviwInfo />
-    </div>
+    <Routes>
+      <Route path='/' element={<PreviewPage />}></Route>
+      <Route path='/login' element={<LoginPage />}></Route>
+      <Route path='/registration' element={<RegistrationPage />}></Route>
+    </Routes>
   );
 }
 
