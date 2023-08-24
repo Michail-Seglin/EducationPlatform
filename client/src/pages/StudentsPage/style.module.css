@@ -1,0 +1,76 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 1220px;
+    margin: 40px auto;
+}
+
+.logo {
+
+    padding-top: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 14px;
+    background: #fff;
+}
+
+.logoImg {
+    background-image: url(./assets/logo.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+}
+
+.wrapper .logo .logoImg h1 {
+    color: #000;
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper .js {
+    max-width: 516px;
+    display: flex;
+
+    justify-content: center;
+    gap: 12px;
+}
+
+.wrapper .img {
+    background-image: url(./assets/image\ 55.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 337px;
+    height: 216px;
+}
+
+.wrapper .js .img .lang {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 516px;
+}
+
+.wrapper .js .img .lang h1 {
+    color: #000;
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.wrapper .js .img .lang p {
+    align-self: stretch;
+    color: #757575;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+
+}

@@ -3,7 +3,7 @@ import PreviwInfo from "../../componets/PreviewInfo/PreviewInfo";
 function PreviewPage() {
     return (
         <div>
-            <Header />
+            <Header isAuth={false} />
             <PreviwInfo />
         </div>
     )
