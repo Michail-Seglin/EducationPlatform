@@ -1,4 +1,4 @@
-import {pool} from '../db'
+import { pool } from '../db'
 import { iCourse } from '../interfaces';
 
 async function getUsersDB(): Promise<iCourse[]> {
@@ -8,10 +8,10 @@ async function getUsersDB(): Promise<iCourse[]> {
     return data
 }
 
-async function createCourseDB(course: string): Promise<iCourse[]> {
+async function createCourseDB(course: string, description: string): Promise<iCourse[]> {
     const client = await pool.connect();
-    const sql = 'insert into courses (course) values ($1) returning *';
-    const data = (await client.query(sql, [course])).rows;
+    const sql = 'insert into courses (course, description) values ($1,$2) returning *';
+    const data = (await client.query(sql, [course, description])).rows;
 
     return data
 }

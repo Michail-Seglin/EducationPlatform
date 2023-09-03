@@ -6,8 +6,8 @@ async function getUsers(): Promise<iCourse[]> {
     return data
 }
 
-async function createCourse(course: string): Promise<iCourse[]> {
-    const data = await createCourseDB(course);
+async function createCourse(course: string, description: string): Promise<iCourse[]> {
+    const data = await createCourseDB(course, description);
     return data
 }
 

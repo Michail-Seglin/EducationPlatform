@@ -1,0 +1,58 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 572px;
+    height: 374px;
+    margin: 40px auto;
+}
+
+.wrapperCourse {
+
+    padding-top: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    border-radius: 14px;
+    background: #fff;
+}
+
+.imgCourse {
+    background-image: url(./assets/img33.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 239px;
+    height: 150px;
+}
+
+.course h2 {
+    color: var(--primaty-black, #000);
+    text-align: center;
+    font-family: Dela Gothic One;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.course p {
+    color: var(--primaty-grey-dark, #757575);
+    font-family: Montserrat;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    letter-spacing: -0.64p
+}
+
+
+.btn {
+    display: flex;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 100px;
+    background: var(--primaty-cyan-light, #C3DCE3);
+
+}
