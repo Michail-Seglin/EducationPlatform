@@ -3,17 +3,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: auto;
-
+    margin: 40px auto;
 }
 
 .wrapper .text {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: auto;
     gap: 25px;
     width: 1220px;
+    margin-bottom: 40px;
 }
 
 .wrapper .btns {
@@ -46,14 +45,14 @@
 
 .wrapper .pict .img {
     display: flex;
-    justify-content: space-between;
-    margin: auto;
+    align-items: flex-start;
     gap: 25px;
 }
 
 .wrapper .pict {
     display: flex;
     align-items: center;
+    color: #757575;
     width: 1220px;
     justify-content: space-between;
 }

@@ -23,7 +23,7 @@ function Footer() {
                     <div className={style.gt}></div>
                     <div className={style.you}></div>
                 </div>
-                <p>©2021 Hschool. Project for Hschool.</p>
+                <p>©2023 Seglin. Project for Seglin.</p>
             </div>
         </div>
     )
