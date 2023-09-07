@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react"
 import Header from "../../componets/Header/Headers"
+import Footer from "../../componets/Footer/Footer"
 import style from './style.module.css'
 import { useParams } from 'react-router-dom'
 // import storage from '../../storage/course.json'
@@ -43,6 +44,7 @@ function CoursePage() {
                     <p>1. test</p>
                 </div>
             </div>
+            <Footer></Footer>
         </>
     )
 }

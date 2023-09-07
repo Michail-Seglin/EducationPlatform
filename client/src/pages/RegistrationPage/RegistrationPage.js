@@ -1,4 +1,5 @@
 import Header from "../../componets/Header/Headers";
+import Footer from "../../componets/Footer/Footer";
 import style from './style.module.css'
 import Input from '../../componets/Input/Input'
 import axios from 'axios'
@@ -20,7 +21,7 @@ function RegistrationPage() {
 
     return (
         <>
-            <Header isAuth={false}/>
+            <Header isAuth={false} />
             <div className={style.wrapper}>
                 <div className={style.info}>
                     <h1>Sign Up</h1>
@@ -30,6 +31,7 @@ function RegistrationPage() {
                 </div>
                 <div className={style.img}></div>
             </div>
+            <Footer></Footer>
         </>
     )
 }

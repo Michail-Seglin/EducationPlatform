@@ -1,4 +1,5 @@
 import Header from "../../componets/Header/Headers"
+import Footer from "../../componets/Footer/Footer"
 import style from "./style.module.css"
 import Input from '../../componets/Input/Input'
 import { useEffect, useState } from "react"
@@ -56,6 +57,7 @@ function StudentsPage() {
                 count={Math.ceil(arr.length / size)}
                 variant="outlined"
                 onChange={handleChange} />
+            <Footer></Footer>
         </div>
     )
 }

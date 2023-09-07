@@ -1,4 +1,5 @@
 import Header from "../../componets/Header/Headers"
+import Footer from "../../componets/Footer/Footer"
 import style from "./style.module.css"
 import Input from '../../componets/Input/Input'
 import { useState } from "react"
@@ -36,6 +37,7 @@ function LoginPage() {
                 </div>
                 <div className={style.img}></div>
             </div>
+            <Footer></Footer>
         </>
     )
 }

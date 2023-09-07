@@ -1,0 +1,83 @@
+.wrapper {
+    width: 1220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+
+}
+
+.wrapper .text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+    gap: 25px;
+    width: 1220px;
+}
+
+.wrapper .btns {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.wrapper .dev {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.wrapper .btns p {
+    font: 600 14px Montserrat;
+    color: #757575;
+    font-style: normal;
+    line-height: 100%;
+    gap: 25px;
+}
+
+.wrapper .dev p {
+    font: 600 14px Montserrat;
+    color: #757575;
+    font-style: normal;
+    line-height: 100%;
+
+}
+
+.wrapper .pict .img {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    gap: 25px;
+}
+
+.wrapper .pict {
+    display: flex;
+    align-items: center;
+    width: 1220px;
+    justify-content: space-between;
+}
+
+.wrapper .pict .cat {
+    background-image: url('./assets/Frame30.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 30px;
+}
+
+.wrapper .pict .gt {
+    background-image: url('./assets/Frame31.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 30px;
+}
+
+.wrapper .pict .you {
+    background-image: url('./assets/Frame33.svg');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 30px;
+}
