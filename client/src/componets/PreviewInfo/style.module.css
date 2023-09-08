@@ -36,6 +36,7 @@
 
 .preview .previewInfo .vektorWrapper p {
     font: 400 40px Dela Gothic One;
+    color: #000;
 }
 
 .preview .previewInfo .vektorWrapper span {
@@ -57,6 +58,7 @@
     background: #C3DCE3;
     border-radius: 30px;
     font: 700 16px Montserrat;
+    color: #2B788B;
 }
 
 .preview .previewGuy {
@@ -135,9 +137,9 @@
     justify-content: space-between;
 }
 
-.knowledge .info{
+.knowledge .info {
     width: 474px;
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 20px;
     justify-content: center;
@@ -163,10 +165,57 @@
     background-color: #C3DCE3;
     width: 160px;
     height: 44px;
+    color: #2B788B;
 }
 
 .knowledge .imgGirl2 {
     background-image: url('./assets/image\ 2.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 580px;
+    height: 480px;
+}
+
+.statistic {
+    display: flex;
+    width: 1120px;
+    margin: 7% auto 0;
+    justify-content: space-between;
+}
+
+.statistic .info {
+    width: 474px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+}
+
+.statistic h1 {
+    color: #000;
+    font: 400 48px Dela Gothic One;
+}
+
+.statistic p {
+    color: #757575;
+    font: 600 18px Montserrat;
+}
+
+.statistic .btnText {
+    display: flex;
+    padding: 14px 22px;
+    justify-content: center;
+    align-items: center;
+    gap: 19px;
+    border-radius: 100px;
+    background-color: #C3DCE3;
+    width: 160px;
+    height: 44px;
+    color: #2B788B;
+}
+
+.statistic .imgPar {
+    background-image: url('./assets/image\ 1.svg');
     background-repeat: no-repeat;
     background-size: contain;
     width: 580px;

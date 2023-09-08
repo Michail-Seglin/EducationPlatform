@@ -19,7 +19,6 @@ function PreviwInfo() {
                         <p className={style.previewText}>Students</p>
                     </div>
                 </div>
-
                 <div className={style.previewGuy}></div>
             </div>
             <div className={style.wrapper}>
@@ -39,11 +38,18 @@ function PreviwInfo() {
                 <div className={style.info}>
                     <h1>Increase your knowledge</h1>
                     <p>Traditional and new effective approaches to learning languages</p>
-                    <div className = {style.btnText}>Textbook →</div>   
+                    <div className={style.btnText}>Textbook →</div>
                 </div>
                 <div className={style.imgGirl2}></div>
             </div>
-            <div></div>
+            <div className={style.statistic}>
+                    <div className={style.imgPar}></div>
+                <div className={style.info}>
+                    <h1>Watch your progress every day</h1>
+                    <p>Save statistics on your achievements and mistakes</p>
+                    <div className={style.btnText}>Statistics →</div>
+                </div>
+            </div>
         </>
     )
 }
